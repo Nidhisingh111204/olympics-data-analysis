@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background: #111;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    background: #222;
+    border-radius: 5px;
+}
+
+.sidebar ul li:hover {
+    background: #444;
+}
+
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
